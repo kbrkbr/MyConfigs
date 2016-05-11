@@ -1,0 +1,9 @@
+# how to update your backup of current settings
+$ cd <root directory of this repository>
+$ cp ~/.config/sublime-text-3/Packages/ . -r
+$ cp ~/.config/sublime-text-3/Installed\ Packages/ . -r
+
+
+# how to get saved settings into your local working copy of sublime 
+$ cp Packages/ ~/.config/sublime-text-3/Packages/ -r
+$ cp Installed\ Packages/   ~/.config/sublime-text-3/Installed\ Packages/ -r
