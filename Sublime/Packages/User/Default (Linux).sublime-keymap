@@ -1,0 +1,10 @@
+[
+	// ctrl tab through all tabs
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+	// natural scrolling
+	{ "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": -5.0 } },
+	{ "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": 5.0 } },
+
+]
