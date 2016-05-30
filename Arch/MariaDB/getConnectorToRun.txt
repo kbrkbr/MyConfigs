@@ -1,0 +1,4 @@
+- install mysql with https://wiki.archlinux.org/index.php/MySQL
+- install mariadb jdbc with https://wiki.archlinux.org/index.php/JDBC_and_MySQL
+- find java_home with whereis java
+- fix with ln like here https://bbs.archlinux.org/viewtopic.php?id=92550
