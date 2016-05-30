@@ -2,3 +2,8 @@
 - install mariadb jdbc with https://wiki.archlinux.org/index.php/JDBC_and_MySQL
 - find java_home with whereis java
 - fix with ln like here https://bbs.archlinux.org/viewtopic.php?id=92550
+
+
+Get Connector to run with Tomcat8
+- find tomcat home with whereis tomcat<versionnumber>
+- make symlink like: sudo ln -s /usr/share/java/mariadb-jdbc/mariadb-java-client.jar /usr/share/tomcat8/lib/
