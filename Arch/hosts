@@ -1,0 +1,66 @@
+#
+# /etc/hosts: static lookup table for host names
+#
+
+#<ip-address>	<hostname.domain.org>	<hostname>
+127.0.0.1	localhost.localdomain	localhost www.konsument.at cms.konsument.at
+::1		localhost.localdomain	localhost
+
+# --------------------------------------------------------------------------------------
+# GO STUFF
+# --------------------------------------------------------------------------------------
+# STAGE-TEST, test server intern verwendet  == DEV, manchmal wilfried
+10.100.244.54   oegb-authoring-test.go.intern.3sit.at  oegb-authoring-test
+
+# not really running, nie wirklich verwendet
+10.100.244.55   oegb-delivery-test.go.intern.3sit.at   oegb-delivery-test
+
+# live/stage db alles
+10.100.244.57   oegb-db01.go.intern.3sit.at oegb-db01
+
+# live erecht server
+10.100.243.67   oegb-erecht.go.intern.3sit.at oegb-erecht
+
+# STAGE live redaktionssystem+QA
+10.100.244.52   oegb-authoring1.go.intern.3sit.at oegb-authoring1
+
+# live system
+10.100.244.53   oegb-delivery1.go.intern.3sit.at oegb-delivery1
+
+#  stage und delivery solr server, newsletter live server
+10.100.243.62   oegb-community.go.intern.3sit.at oegb-community
+
+# live go alt server
+10.100.244.59   oegb-app1.go.intern.3sit.at oegb-app1
+
+# go alt stage, stage für usermanagement
+10.100.244.60   oegb-stage1.go.intern.3sit.at oegb-stage1
+
+# reverse proxy für sämtliche oegb sites
+10.100.242.61   oegb-satellite1.go.intern.3sit.at
+
+ # actual dev server der netconomy, veraltet
+10.96.240.60 	oegb-authoring.local.netconomy.net    oegb-authoring
+
+ # public name für oegb-authoring-test
+10.100.244.54   stage-test.gewerkschaften-online.at    stage-test
+
+# public name für oegb-delivery-test
+10.100.244.55	delivery-test.gewerkschaften-online.at    delivery-test
+
+# oegb stat server, csuser / cs$user
+10.100.243.66 	oegb-stats.go.intern.3sit.at oegb-stats
+# --------------------------------------------------------------------------------------
+
+#10.100.244.54   oegb-authoring-test.go.intern.3sit.at  oegb-authoring-test
+#10.100.244.55   oegb-delivery-test.go.intern.3sit.at   oegb-delivery-test
+#10.100.244.57   oegb-db01.go.intern.3sit.at oegb-db01
+#10.100.243.67   oegb-erecht.go.intern.3sit.at oegb-erecht
+#10.100.244.52  oegb-authoring1.go.intern.3sit.at oegb-authoring1
+#10.100.244.53  oegb-delivery1.go.intern.3sit.at oegb-delivery1
+#10.100.243.62  oegb-community.go.intern.3sit.at oegb-community
+#10.100.244.59  oegb-app1.go.intern.3sit.at oegb-app1
+#10.100.244.60  oegb-stage1.go.intern.3sit.at oegb-stage1
+#10.96.255.50  oegb-db2.local.netconomy.net oegb-db2.local.netconomy.net
+#
+#10.100.242.61  oegb-satellite1.go.intern.3sit.at oegb-satellite1
