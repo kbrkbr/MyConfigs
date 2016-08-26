@@ -1,0 +1,9 @@
+copy whole .ssh folder on old machine
+
+pase whole .ssh folder on new machine
+    - fix permissions:
+        sudo chmod 600 ~/.ssh/id_rsa
+        sudo chmod 600 ~/.ssh/id_rsa.pub
+        
+        sudo chmod 644 ~/.ssh/known_hosts
+        sudo chmod 755 ~/.ssh
