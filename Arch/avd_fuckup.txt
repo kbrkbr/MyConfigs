@@ -1,0 +1,1 @@
+ so basically i renamed the "android-studio/sdk/tools/lib64/libstdc++/libstdc++.so.6" file so it has to use the system ones ... that basically does the trick – for me.
